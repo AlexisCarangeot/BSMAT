@@ -1,0 +1,265 @@
+.login-info{
+    position: absolute;
+    right: 60px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.login-info svg{
+    transition: all .3s ease-in-out;
+}
+
+.login-info a{
+    margin-left: 20px;
+}
+.login-info a:hover svg{
+    transform: scale(1.1);
+}
+
+.login-info p{
+    color: white;
+    font-size: 2rem;
+    text-align: right;
+}
+
+#list .card{
+    background-color: unset;
+    border: none;
+}
+
+#list .card table{
+    border: solid 1px #07090f;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,.4);
+    border-radius: 7px;
+    margin: 15px 0 !important;
+}
+
+#list .card table th,td{
+    border-bottom: none !important;
+    border-top: none !important;
+    border-color: rgba(7,9,15,.2) !important;
+    vertical-align: middle;
+}
+
+#list .card table thead th{
+    border-bottom: solid 1px #07090F !important;
+}
+
+#list .card table tbody td{
+    text-align: center;
+}
+
+#list .card table tbody tr:nth-of-type(2n+1){
+    background-color: #B3B5A7;
+}
+
+#list .form-control{
+    height: 35px !important;
+    box-shadow: 0 0 8px rgba(0,0,0,.4);
+    border-radius: 50px;
+    border: none;
+    padding: 0 20px;
+    font-size: 1.5rem;
+}
+
+#list .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: unset;
+    padding-right: unset;
+    padding-left: unset;
+}
+
+#list table.dataTable thead .sorting::before, table.dataTable thead .sorting::after, table.dataTable thead .sorting_asc::before, table.dataTable thead .sorting_asc::after, table.dataTable thead .sorting_desc::before, table.dataTable thead .sorting_desc::after, table.dataTable thead .sorting_asc_disabled::before, table.dataTable thead .sorting_asc_disabled::after, table.dataTable thead .sorting_desc_disabled::before, table.dataTable thead .sorting_desc_disabled::after {
+
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+#list table.dataTable thead .sorting::after, table.dataTable thead .sorting_asc::after, table.dataTable thead .sorting_desc::after, table.dataTable thead .sorting_asc_disabled::after, table.dataTable thead .sorting_desc_disabled::after {
+    right: 0.2em;
+    content: "\2193";
+}
+
+#list .table td, .table th {
+    vertical-align: middle !important;
+}
+
+#list .table thead{
+    font-size: 1.4rem;
+}
+
+#list .dataTables_paginate .pagination li {
+    cursor: pointer;
+}
+
+#list .page-item.disabled .page-link {
+    border-radius: 5px !important;
+    font-weight: 200;
+}
+
+#list .dataTables_paginate .pagination li a {
+    border-radius: 5px !important;
+    margin: 0 5px;
+}
+
+#list .container-perso{
+    padding: 20px 10px 150px 10px;
+}
+
+#list div.dataTables_wrapper div.dataTables_length label {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 800;
+}
+#list div.dataTables_wrapper div.dataTables_info {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+#list .content{
+    position: relative;
+}
+
+.redirect-create{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+.redirect-create:hover{
+    color: #E6E9EB;
+}
+
+#list .footer{
+    bottom: unset;
+}
+
+.fiche-action{
+    margin: 5px 0;
+    font-size: 1.2rem !important;
+    width: 100px;
+    padding: 3px 0 !important;
+    text-align: center;
+    display: block;
+}
+
+.fiche-action:hover{
+    color: #E6E9EB;
+}
+
+#list .container-fluid {
+    width: unset;
+    padding-right: unset;
+    padding-left: unset;
+    margin-right: unset;
+    margin-left: unset;
+}
+
+.form-actions{
+    width: 70%;
+}
+
+
+.actionInput-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.actionInput-box{
+    margin-right: 20px;
+    width: 100%;
+}
+
+.actionInput-box input{
+    width: 100%;
+}
+
+.btnDelete{
+    background-color: #AF1934 !important;
+    color: #fff !important;
+    padding: 7px 25px !important;
+}
+#tableActions{
+    width: 100%;
+    background-color: #fff;
+    border: solid 1px #07090f;
+    box-shadow: 0 0 5px rgba(0,0,0,.4);
+    border-radius: 7px;
+    margin: 15px 0 !important;
+    border-collapse: separate !important;
+}
+
+#tableActions thead tr{
+    background-color: #fff !important;
+    border-collapse: separate !important;
+}
+
+#tableActions th{
+    border-bottom: solid 1px #07090F !important;
+    font-size: 1.4rem;
+}
+
+#tableActions td{
+    font-size: 1.8rem;
+}
+
+#tableActions td,th{
+    padding: 1rem;
+    border-collapse: separate !important;
+    vertical-align: middle !important;
+    text-align: center;
+}
+
+#tableActions td,th{
+    border-left: 1px solid #dee2e6 ;
+}
+
+
+#tableActions tr:nth-of-type(2n+1) {
+    background-color: #ddd8d0;
+}
+
+#actionName::placeholder{
+    opacity: .4 !important;
+}
+
+.action-container-perso{
+    min-height: calc(100vh - 350px) !important;
+}
+
+#listVu .alert-danger{
+    width: 70%;
+    text-align: center;
+    margin: 20px auto -20px auto;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgba(0,0,0,.3);
+}
+
+
+#listVu .form-box select, #listVu .form-box input{
+    width: 280px;
+}
+
+#listVu .form-box select{
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.redirect-action{
+    justify-content: center !important;
+    margin-top: 20px !important;
+}
+
+.actionInput-box2 select{
+    width: 100%;
+}

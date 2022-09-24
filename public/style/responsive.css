@@ -1,0 +1,18 @@
+
+@media screen and (max-width: 1109px){
+    body{
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .header img {
+        left: 30px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .header img {
+        visibility: hidden;
+    }
+}

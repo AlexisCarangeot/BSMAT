@@ -1,0 +1,79 @@
+.btn_create{
+    background-color: #272c33;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.btn_consult{
+    background-color: #275464;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    padding: 2px 6px;
+}
+
+.btn_modif{
+    background-color: #028186;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    padding: 2px 6px;
+}
+
+.btn_supp{
+    background-color: #780000;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    padding: 2px 6px;
+}
+
+.td_perso{
+    text-align: center;
+}
+
+.btn_submit{
+    background-color: #272c33;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    padding: 2px 6px;
+    margin-bottom: 3px;
+}
+
+.btn_valid{
+    background-color: #272c33;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    padding: 2px 6px;
+    margin-bottom: 3px;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+}
+
+.succes{
+    color: green;
+    font-weight: bold;
+}
+
+.img{
+    height: 15px;
+    margin-left: 5px;
+}
+
+.login-title{
+    color: white;
+}
+
+.fontAwesome {
+    font-family: 'FontAwesome', sans-serif;
+}
+
+.font_perso{
+    font-weight: normal;
+}
